@@ -1,0 +1,131 @@
+
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    font-family:'Lato', 'Helvetica';
+    font-size:18px;
+
+
+
+}
+
+a:hover{
+    transition-duration:500ms;
+    color:purple;
+    font-size:20px;
+    top:18px;
+}
+
+.WORK {
+    color:purple;
+    text-decoration: underline;
+    top:20px;
+    left:850px;
+    position:absolute;
+
+}
+.ABOUT {
+    position:absolute;
+    top:20px;
+    left:950px;
+
+}
+
+.CONTACT {
+    position:absolute;
+    top:20px;
+    left:1050px;
+
+}
+
+.HI {
+    position:absolute;
+    top:160px;
+    left:100px;
+    font-size:90px;
+    font-family:'Cormorant Garamond','Lato','Helvetica';
+}
+
+.IM{
+    position:absolute;
+    top:220px;
+    left:220px;
+    color:black;
+    font-size:50px;
+    font-family:'Cormorant Garamond','Lato','Helvetica';
+}
+.IM:hover{
+    color:purple;
+    transition-duration:500ms;
+}
+.UX{
+    position:absolute;
+    top:280px;
+    left:100px;
+    color:black;
+    font-size:50px;
+    font-family:'Cormorant Garamond','Lato','Helvetica';
+}
+
+.hjemmeside {
+    position:absolute;
+    left:800px;
+    top:220px;
+    opacity:0.5;
+    width:400px;
+    
+
+    
+}
+
+.background {
+    position:absolute;
+    left:-50px;
+    top:-50px;
+    opacity:0.5;
+    height:845px;
+}
+
+
+.experience {
+    position: absolute;
+    top:520px;
+    margin-left:-50px;
+    margin-right:-50px;
+    opacity: 0;
+    font-family:'Lato','Helvetica';
+    text-align:center;
+    margin:0 auto;
+    width: 100%;
+    height:100px;
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.experience:hover {
+    opacity: 1;
+    transform: translateY(16px);
+}
+
+.experience:hover:after { /* fix: https://codepen.io/matthewcoxx/pen/qMrrJP*/
+
+  content: "";
+  height: calc(100% + 1rem);
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  bottom: 1rem;
+}
+
+/* PROJECT 1*/
+
+.p1{ 
+    background-color:pink;
+    width: 100%;
+    height: 500px;
+    position:absolute;
+    top:700px;
+}
